@@ -1,0 +1,468 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "admin",
+      "cwd": "flutter\\admin",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "admin (profile mode)",
+      "cwd": "flutter\\admin",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "admin (release mode)",
+      "cwd": "flutter\\admin",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "asha_worker",
+      "cwd": "flutter\\asha_worker",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "asha_worker (profile mode)",
+      "cwd": "flutter\\asha_worker",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "asha_worker (release mode)",
+      "cwd": "flutter\\asha_worker",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "bakedude",
+      "cwd": "flutter\\bakedude",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "bakedude (profile mode)",
+      "cwd": "flutter\\bakedude",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "bakedude (release mode)",
+      "cwd": "flutter\\bakedude",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "citjo",
+      "cwd": "flutter\\citjo",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "citjo (profile mode)",
+      "cwd": "flutter\\citjo",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "citjo (release mode)",
+      "cwd": "flutter\\citjo",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "cms",
+      "cwd": "flutter\\cms",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "cms (profile mode)",
+      "cwd": "flutter\\cms",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "cms (release mode)",
+      "cwd": "flutter\\cms",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "cms_again",
+      "cwd": "flutter\\cms_again",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "cms_again (profile mode)",
+      "cwd": "flutter\\cms_again",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "cms_again (release mode)",
+      "cwd": "flutter\\cms_again",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "fluttershare",
+      "cwd": "flutter\\fluttershare",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "fluttershare (profile mode)",
+      "cwd": "flutter\\fluttershare",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "fluttershare (release mode)",
+      "cwd": "flutter\\fluttershare",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Instagram",
+      "cwd": "flutter\\Instagram",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Instagram (profile mode)",
+      "cwd": "flutter\\Instagram",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Instagram (release mode)",
+      "cwd": "flutter\\Instagram",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "inventory_management_system",
+      "cwd": "flutter\\inventory_management_system",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "inventory_management_system (profile mode)",
+      "cwd": "flutter\\inventory_management_system",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "inventory_management_system (release mode)",
+      "cwd": "flutter\\inventory_management_system",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "invoices",
+      "cwd": "flutter\\invoices",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "invoices (profile mode)",
+      "cwd": "flutter\\invoices",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "invoices (release mode)",
+      "cwd": "flutter\\invoices",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "kjsieit",
+      "cwd": "flutter\\kjsieit",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "kjsieit (profile mode)",
+      "cwd": "flutter\\kjsieit",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "kjsieit (release mode)",
+      "cwd": "flutter\\kjsieit",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "kjsieit_flutter",
+      "cwd": "flutter\\kjsieit_flutter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "kjsieit_flutter (profile mode)",
+      "cwd": "flutter\\kjsieit_flutter",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "kjsieit_flutter (release mode)",
+      "cwd": "flutter\\kjsieit_flutter",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "lamshow",
+      "cwd": "flutter\\lamshow",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "lamshow (profile mode)",
+      "cwd": "flutter\\lamshow",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "lamshow (release mode)",
+      "cwd": "flutter\\lamshow",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "landing_page",
+      "cwd": "flutter\\landing_page",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "landing_page (profile mode)",
+      "cwd": "flutter\\landing_page",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "landing_page (release mode)",
+      "cwd": "flutter\\landing_page",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "learnig_provider",
+      "cwd": "flutter\\learnig_provider",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "learnig_provider (profile mode)",
+      "cwd": "flutter\\learnig_provider",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "learnig_provider (release mode)",
+      "cwd": "flutter\\learnig_provider",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "lol",
+      "cwd": "flutter\\lol",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "lol (profile mode)",
+      "cwd": "flutter\\lol",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "lol (release mode)",
+      "cwd": "flutter\\lol",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "media",
+      "cwd": "flutter\\media",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "media (profile mode)",
+      "cwd": "flutter\\media",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "media (release mode)",
+      "cwd": "flutter\\media",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "provider",
+      "cwd": "flutter\\provider",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "provider (profile mode)",
+      "cwd": "flutter\\provider",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "provider (release mode)",
+      "cwd": "flutter\\provider",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "rest",
+      "cwd": "flutter\\rest",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "rest (profile mode)",
+      "cwd": "flutter\\rest",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "rest (release mode)",
+      "cwd": "flutter\\rest",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "seller",
+      "cwd": "flutter\\seller",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "seller (profile mode)",
+      "cwd": "flutter\\seller",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "seller (release mode)",
+      "cwd": "flutter\\seller",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "shop_app",
+      "cwd": "flutter\\shop_app",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "shop_app (profile mode)",
+      "cwd": "flutter\\shop_app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "shop_app (release mode)",
+      "cwd": "flutter\\shop_app",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "kjsieit_flutter",
+      "cwd": "zip\\kjsieit_flutter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "kjsieit_flutter (profile mode)",
+      "cwd": "zip\\kjsieit_flutter",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "kjsieit_flutter (release mode)",
+      "cwd": "zip\\kjsieit_flutter",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "lamshow",
+      "cwd": "zip\\lamshow",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "lamshow (profile mode)",
+      "cwd": "zip\\lamshow",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "lamshow (release mode)",
+      "cwd": "zip\\lamshow",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
