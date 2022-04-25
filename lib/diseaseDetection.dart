@@ -46,10 +46,12 @@ class _DiseaseDetectionState extends State<DiseaseDetection> {
         numResults: 2,
         threshold: 0.2,
         asynch: true);
+    print(output);
     setState(() {
       _loading = false;
       _outputs = output!;
     });
+    print(_outputs);
   }
 
   @override
@@ -104,70 +106,76 @@ class _DiseaseDetectionState extends State<DiseaseDetection> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-          child: Column(
-        children: [
-          Padding(padding: EdgeInsets.only(top: 100.0)),
-          _image == null ? Container() : Image.file(_image!),
-          SizedBox(
-            height: 20,
-          ),
-          // _image != null
-          //     ? Image.file(
-          //         _image!,
-          //         width: 300,
-          //         height: 300,
-          //       )
-          //     : _outputs != null
-          //         ? Text(
-          //             _outputs![0]["label"],
-          //             style: TextStyle(color: Colors.black, fontSize: 20),
-          //           )
-          //         : Container(child: Text("")),
-          _image != null
-              ? Image.file(
-                  _image!,
-                  width: 300,
-                  height: 300,
-                )
-              : _outputs != null
-                  ? Text(
-                      _outputs![0]["label"],
-                      style: TextStyle(color: Colors.black, fontSize: 20),
-                    )
-                  : Container(child: Text("")),
-          // image != null
-          //     ? Image.file(
-          //         image!,
-          //         width: 300,
-          //         height: 300,
-          //       )
-          //     // Column(
-          //     //     children: <Widget>[
-          //     //       Image.file(
-          //     //         image!,
-          //     //         width: 300,
-          //     //         height: 300,
-          //     //       ),
-          //     //       Text(
-          //     //         _outputs![0]["label"],
-          //     //         style: TextStyle(color: Colors.black, fontSize: 20),
-          //     //       )
-          //     //       // : Container(child: Text(""))
-          //     //     ],
-          //     //   )
-          //     : Container(child: Text("")),
-          // : FlutterLogo(),
-          Padding(padding: EdgeInsets.only(top: 30.0)),
-          ElevatedButton(
-              onPressed: () => captureImage(),
-              child: const Text('Take from Camera')),
-          Padding(padding: EdgeInsets.only(top: 30.0)),
-          ElevatedButton(
-              onPressed: () => pickImage(),
-              child: const Text('Take from Gallery')),
-        ],
-      )),
+      appBar: AppBar(
+        title: const Text('Disease Detection'),
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            // Padding(padding: EdgeInsets.only(top: 100.0)),
+            // _image == null ? Container() : Image.file(_image!),
+            SizedBox(
+              height: 20,
+            ),
+            // _image != null
+            //     ? Image.file(
+            //         _image!,
+            //         width: 300,
+            //         height: 300,
+            //       )
+            //     : _outputs != null
+            //         ? Text(
+            //             _outputs![0]["label"],
+            //             style: TextStyle(color: Colors.black, fontSize: 20),
+            //           )
+            //         : Container(child: Text("")),
+
+            _image != null
+                ? Image.file(
+                    _image!,
+                    width: 300,
+                    height: 300,
+                  )
+                : Container(),
+            _outputs != null
+                ? Text(
+                    _outputs![0]["label"],
+                    style: TextStyle(color: Colors.black, fontSize: 20),
+                  )
+                : Container(child: Text("")),
+            // image != null
+            //     ? Image.file(
+            //         image!,
+            //         width: 300,
+            //         height: 300,
+            //       )
+            //     // Column(
+            //     //     children: <Widget>[
+            //     //       Image.file(
+            //     //         image!,
+            //     //         width: 300,
+            //     //         height: 300,
+            //     //       ),
+            //     //       Text(
+            //     //         _outputs![0]["label"],
+            //     //         style: TextStyle(color: Colors.black, fontSize: 20),
+            //     //       )
+            //     //       // : Container(child: Text(""))
+            //     //     ],
+            //     //   )
+            //     : Container(child: Text("")),
+            // : FlutterLogo(),
+            Padding(padding: EdgeInsets.only(top: 30.0)),
+            ElevatedButton(
+                onPressed: () => captureImage(),
+                child: const Text('Take from Camera')),
+            Padding(padding: EdgeInsets.only(top: 30.0)),
+            ElevatedButton(
+                onPressed: () => pickImage(),
+                child: const Text('Take from Gallery')),
+          ],
+        ),
+      ),
     );
   }
 }
