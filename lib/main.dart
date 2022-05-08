@@ -100,7 +100,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(children: [
           Padding(padding: EdgeInsets.symmetric(vertical: 20.0)),
-          Text('Main Page')
+          Text('Main Page'),
+          // Text('')
         ]),
       ),
     );

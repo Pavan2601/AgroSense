@@ -1,10 +1,13 @@
 import 'dart:io';
 
+import 'package:agri_project/db.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
+
+import 'db.dart';
 
 class DiseaseDetection extends StatefulWidget {
   const DiseaseDetection({Key? key}) : super(key: key);
@@ -14,8 +17,9 @@ class DiseaseDetection extends StatefulWidget {
 }
 
 class _DiseaseDetectionState extends State<DiseaseDetection> {
+  var db = Database();
   File? _image;
-  List? _outputs;
+  String _outputs = "";
   bool _loading = false;
 
   @override
@@ -39,19 +43,21 @@ class _DiseaseDetectionState extends State<DiseaseDetection> {
   }
 
   classifyImage(File image) async {
-    var output = await Tflite.runModelOnImage(
-        path: image.path,
-        imageMean: 0.0,
-        imageStd: 255.0,
-        numResults: 2,
-        threshold: 0.2,
-        asynch: true);
-    print(output);
+    var out = await db.sendImage(image);
+    print(out);
+    // var output = await Tflite.runModelOnImage(
+    //     path: image.path,
+    //     imageMean: 0.0,
+    //     imageStd: 255.0,
+    //     numResults: 2,
+    //     threshold: 0.2,
+    //     asynch: true);
+    // print(output);
     setState(() {
-      _loading = false;
-      _outputs = output!;
+      // _loading = false;
+      _outputs = out;
     });
-    print(_outputs);
+    // print(_outputs);
   }
 
   @override
@@ -139,7 +145,7 @@ class _DiseaseDetectionState extends State<DiseaseDetection> {
                 : Container(),
             _outputs != null
                 ? Text(
-                    _outputs![0]["label"],
+                    _outputs,
                     style: TextStyle(color: Colors.black, fontSize: 20),
                   )
                 : Container(child: Text("")),
