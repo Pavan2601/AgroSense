@@ -1,0 +1,18 @@
+{
+    "english": "English",
+    "marathi": "Marathi",
+    "valuesOfNPK": "Here you have to enter the values of N P K of soil",    
+    "agroSense": "AgroSense",    
+    "diseaseDetection": "Disease Detection",   
+    "npk": "NPK",
+    "n": "Enter the value of N",
+    "p": "Enter the value of P",   
+    "k": "Enter the value of K",  
+    "submit": "Submit",
+    "uploadImage": "Upload Image", 
+    "suitableCropIs": "Suitable crop is ",
+    "precautionaryMeasures": "Precautionary Measures",
+    "projectDesc": "This app will help you to keep eyes on crops and detect if they are infected by diseases and take precautionary measures"
+    
+
+}

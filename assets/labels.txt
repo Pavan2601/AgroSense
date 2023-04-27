@@ -1,10 +1,10 @@
-Bacterial_spot
-Early_blight
-Late_blight
-Leaf_Mold
-Septoria_leaf_spot
-Spider_mites
-Target_Spot
-Yellow_Leaf_Curl_Virus
-Mosaic_virus
-Healthy
+Bacterial_spot : Use pathogen-free certified seeds and disease-free transplants, minimize overwatering and handling of seedlings when they are wet, wash and sanitize trays, benches, tools, and greenhouse structures between crops, and avoid spraying, tying, harvesting, or handling wet plants.
+Early_blight : Use pathogen-free seed or collect seed only from disease-free plants, rotate out of tomatoes and related crops for at least two years, control susceptible weeds, fertilize properly, avoid working in plants when they are wet, and use drip irrigation.
+Late_blight : Use resistant varieties, scout frequently for symptoms, use preventative fungicides in areas where late blight is common, and manage irrigation and plant density to reduce humidity.
+Leaf_Mold : Use drip irrigation, space plants to provide good air movement, stake, string or prune to increase airflow, sterilize stakes, ties, and trellises, circulate air in greenhouses or tunnels, keep night temperatures in greenhouses higher than outside temperatures, and remove crop residue at the end of the season.
+Septoria_leaf_spot : Remove diseased leaves, improve air circulation around the plants, mulch around the base of the plants, and use preventative fungicides in areas where the disease is common.
+Spider_mites : Avoid early season broad-spectrum insecticides, do not over-fertilize, and use overhead irrigation or prolonged periods of rain to reduce populations.
+Target_Spot : Remove lower branches for better airflow, remove and burn infected lower leaves, keep plots free from weeds, and avoid overhead irrigation that creates conditions for spore production and infection.
+Yellow_Leaf_Curl_Virus : use insecticides and resistant crop varieties, alternate or mix insecticides for effective treatment, planting resistant/tolerant lines, crop rotation, breeding for resistance, and production of transgenic tomato plants resistant to TYLCV.
+Mosaic_virus : purchase transplants only from reputable sources, inspect transplants prior to purchase, avoid planting in fields where tomato root debris is present, and wash hands with soap and water before and during the handling of plants to reduce potential spread between plants.
+Healthy : Healthy

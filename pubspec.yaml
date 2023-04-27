@@ -29,7 +29,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  provider: ^6.0.5
 
 
 
@@ -38,11 +41,18 @@ dependencies:
   cupertino_icons: ^1.0.2
   image_picker: ^0.8.4+11
   tflite: ^1.1.2
-  dio: ^4.0.6
+  # dio: ^5.0.1
+  dio: ^4.0.0
+  http: ^0.13.5
+  geolocator: ^9.0.2
+  permission_handler: ^10.2.0
+  translator: ^0.1.7
+  google_translator: ^1.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -60,12 +70,16 @@ flutter:
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
+  generate: true
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/labels.txt
     - assets/model_unquant.tflite
+    - assets/images/bg1.jpg
+    - assets/images/logo.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
